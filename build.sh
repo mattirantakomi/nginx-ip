@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IMAGE_NAME="mattirantakomi/nginx-php-fpm"
+IMAGE_NAME="mattirantakomi/nginx-ip"
 IMAGE_TAG=$(date +%Y-%m-%d_%s)
 
 docker build -t ${IMAGE_NAME}:${IMAGE_TAG} -t ${IMAGE_NAME}:latest .
